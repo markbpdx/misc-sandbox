@@ -1,0 +1,30 @@
+ul.collapsibleList {
+    list-style-type: none;
+}
+.collapsibleList li > input:focus
+{
+background-color:yellow;
+}
+.collapsibleList li > input + * {
+    display: none;
+}
+.collapsibleList li > input:checked + * {
+    display: block;
+}
+.collapsibleList li > input {
+    display: none;
+    }
+.collapsibleList label {
+    cursor: pointer;
+    color: blue;
+}
+.collapsibleList label:hover {
+background-color:yellow;
+    cursor: pointer;
+    color: blue;
+}
+.collapsibleList label:hover {
+background-color:yellow;
+    cursor: pointer;
+    color: blue;
+}
